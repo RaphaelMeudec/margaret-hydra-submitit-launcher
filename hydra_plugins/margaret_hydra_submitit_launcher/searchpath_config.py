@@ -12,5 +12,6 @@ class MargaretSearchPathPlugin(SearchPathPlugin):
         # Remember to verify the config is packaged properly (build sdist and look inside,
         # and verify MANIFEST.in is correct).
         search_path.append(
-            provider="margaret-hydra-submitit-launcher", path="pkg://margaret_hydra_submitit_launcher"
+            provider="margaret-hydra-submitit-launcher",
+            path="pkg://hydra_plugins.margaret_hydra_submitit_launcher",
         )
